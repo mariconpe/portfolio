@@ -2,13 +2,14 @@
     /*border: 1px solid red;*/
     box-sizing: border-box;
     overflow-wrap: break-word;
+    text-decoration: none;
+    color: #c0a1b4;
 }
 
 body{
     margin: 30px;
     padding: 0;
     background-color: #1a0d15;
-    color: #c0a1b4;
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 500;
     min-width: 630px;
@@ -34,7 +35,7 @@ body{
     flex-direction: column;
     width: 80%;
     min-width: 400px;
-    row-gap: 20px;
+    row-gap: 20px
 }
 
 section{
@@ -154,21 +155,18 @@ h4{
 }
 
 .projects{
-    height: 250px;
-    box-sizing: border-box;
-    display: grid;
+    display: flex;
     column-gap: 10px;
-    grid-template-areas: "project1 project2";
+    row-gap: 20px;
+    flex-wrap: wrap;
 }
 
 #project1, #project2{
     border-radius: 12px;
-    height: 250px;
     padding: 20px 25px 0px;
     display: flex;
-    box-sizing: border-box;
     flex-direction: column;
-    row-gap: 70px;
+    flex: 1;
 }
 
 #project1 img, #project2 img{
@@ -184,6 +182,7 @@ h4{
 .share{
     float: left;
     margin-top: 20px;
+    min-width: 150px
 }
 
 .share img{
@@ -208,7 +207,6 @@ h4{
 }
 
 #posts{
-    height: 200px;
     padding: 30px;
     border-radius: 12px;
     display: flex;
