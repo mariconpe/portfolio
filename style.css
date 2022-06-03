@@ -43,6 +43,11 @@ section{
     box-shadow: 3px 3px #0a0509;
 }
 
+a:hover{
+    color: #ecdce6;
+    transition: 0.2s;
+}
+
 h2{
     font-weight: 700;
     width: minmax(100px,200px);
@@ -114,9 +119,16 @@ h4{
     box-sizing: border-box;
     border-radius: 20px;
     background-color: #fac6e6;
-    color: black;
+    color: #0e0e0e;
     font-size: 13px;
     font-weight: 700;
+}
+
+#tags p:hover{
+    background-color: #0e0e0e;
+    color: #fac6e6;
+    cursor: default;
+    transition: 0.5s;
 }
 
 #exp{
@@ -234,4 +246,9 @@ h4{
 
 #posts p{
     font-size: 12px;
+}
+
+footer{
+    text-align: center;
+    margin: 30px auto 60px;
 }
