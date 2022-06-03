@@ -26,10 +26,7 @@ body{
     width: 20%;
     flex-direction: column;
     min-width: 150px;
-}
-
-.firstcolumn > *{
-    margin-bottom: 10px;
+    row-gap: 20px;
 }
 
 .secondcolumn{
@@ -37,10 +34,7 @@ body{
     flex-direction: column;
     width: 80%;
     min-width: 400px;
-}
-
-.secondcolumn > *{
-    margin-bottom: 10px;
+    row-gap: 20px;
 }
 
 section{
@@ -156,10 +150,7 @@ h4{
     padding: 0px 30px;
     border-radius: 12px;
     display: grid;
-}
-
-#title2{
-    margin-top: 10px;
+    box-sizing: border-box;
 }
 
 .projects{
@@ -221,7 +212,6 @@ h4{
     padding: 30px;
     border-radius: 12px;
     display: flex;
-    row-gap: 0px;
 }
 
 #posts img{
